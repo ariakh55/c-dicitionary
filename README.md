@@ -38,7 +38,7 @@ is for holding the key and value of each member.
 		Dict, char *, char *
 	- out:
 		Dict
-	-example:
+	- example:
 		```c DictInsert(obejcts, "Key", "Value"); ```
 - DictSearch(Dict, const char* key):
 	Searches through the defined Dict and returns the value binded to the key.
