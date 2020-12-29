@@ -57,7 +57,7 @@ is for holding the key and value of each member.
 		Dict, char*
 	- out:
 		void
-	-example:
+	- example:
 		```DictDelete(objects, "Key");```
 
 Re-enhanced by AriaKH55
