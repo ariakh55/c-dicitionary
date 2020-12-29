@@ -15,7 +15,7 @@ is for holding the key and value of each member.
 - Dict:
 	Define dictionaries using this keyword;
 	- example:
-		```c Dict objects; ```
+		```Dict objects;```
 - Dict DictCreate(void):
 	Create and pass the dictionary to a defined dictonary;
 	- in:
@@ -31,7 +31,7 @@ is for holding the key and value of each member.
 	- out:
 		void
 	- example:
-		```c DictDestroy(objects); ```
+		```DictDestroy(objects);```
 - DictInsert(Dict, const char *key, const char *value):
 	Used to Insert members inside defined Dict /w key and value;
 	- in:
@@ -39,7 +39,7 @@ is for holding the key and value of each member.
 	- out:
 		Dict
 	- example:
-		```c DictInsert(obejcts, "Key", "Value"); ```
+		```DictInsert(obejcts, "Key", "Value");```
 - DictSearch(Dict, const char* key):
 	Searches through the defined Dict and returns the value binded to the key.
 	- in:
@@ -58,6 +58,6 @@ is for holding the key and value of each member.
 	- out:
 		void
 	-example:
-		```c DictDelete(objects, "Key"); ```
+		```DictDelete(objects, "Key");```
 
 Re-enhanced by AriaKH55
